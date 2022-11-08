@@ -1,15 +1,16 @@
  body{
 
-background-color: rgb(10, 10, 10);
+background-color: aliceblue;
 
  }
- : 34px;
- color: 
-height: 420px;
-width: 654px;
-margin: 50px auto;
-border-radius:7px 7px 7px 7px ;
--webkit-box-shadow
+
+   .wrapper{
+  
+ height: 420px;
+ width: 654px;
+ margin: 50px auto;
+ -moz-box-shadow: 0px 14px 32px 0px aliceblue(0,0,0,0,15)
+ -box-shadow: 0px 14px 32px 0px aliceblue(0,0,0,0,15)
 }
 
 #olive{
@@ -22,7 +23,7 @@ border-radius:7px 7px 7px 7px ;
     margin: 0 0 0 0 38px;
     padding-top: 1px;
     font-size: 34px;
-    color: rgb(10, 10, 10);
+    color: aliceblue;
 }
  .produtotexto h1,
  .botaopreco p {
@@ -34,7 +35,7 @@ border-radius:7px 7px 7px 7px ;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    color: rgb(10, 10, 10);
+    color: aliceblue;
  }
 
  .produtotexto p{
@@ -42,7 +43,7 @@ border-radius:7px 7px 7px 7px ;
     padding-bottom: 100px;
     margin: 0 0 47PX 38PX;
     font-family: 'playfair Display', serif;
-    color: rgb(10, 10, 10);
+    color: aliceblue;
     line-height: 1,7em;
     font-size: 15px;
     font-weight: lighter;
@@ -58,7 +59,7 @@ border-radius:7px 7px 7px 7px ;
     position: relative;
  }
 
- .botaoprecp p{
+ .botaopreco p{
     display: inline-block;
     position: absolute;
     top: 13px;
@@ -67,7 +68,7 @@ border-radius:7px 7px 7px 7px ;
     margin: 0 0 0 50px;
     font-size: 20px;
     font-weight: lighter;
-    color: rgb(10, 10, 10);
+    color: aliceblue;
  }
 
  span{
@@ -80,20 +81,21 @@ border-radius:7px 7px 7px 7px ;
  }
  .botaopreco button{
     float: right;
-    display: inline-block;: 34px;
+    display: inline-block; 34px;
     height: 50px;
     width: 176px;
     margin: 0 60px 0 16px;
     box-sizing: border-box;
     border: transparent;
     border-radius: 60px;
-    font-family:'Raleway', sans-serif;
-    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px; 
     font-weight: 500;
-    text-transform:uppercase;
+    text-transform: uppercase;
     latter-spacing: 0,2em;
-    color: rgb(10, 10, 10)
+    color: aliceblue;
+    background-color: aliceblue;
+    cursor: pointer;
+    outline: none;
 
-
-      
   }
